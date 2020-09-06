@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/stinkymonkeyph/express-js-starter#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "url-metadata": "^2.4.1"
   }
 }
