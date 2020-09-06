@@ -1,7 +1,7 @@
 const express = require('express')
-const studentRouter = require('./routes/studentRouter')
+const metaRouter = require('./routes/metaRouter')
 const api = express()
 
-api.use('/students', studentRouter)
+api.use('/scrape', metaRouter)
 
 module.exports = api
