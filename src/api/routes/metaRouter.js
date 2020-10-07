@@ -1,8 +1,9 @@
 const { Router } = require('express')
-const { scrape } = require('../controllers/getMeta')
+const { scrape, generateImageLink } = require('../controllers/getMeta')
 
 const metaRouter = Router()
 
 metaRouter.get('/', scrape)
+metaRouter.post('/generate', generateImageLink)
 
 module.exports = metaRouter
